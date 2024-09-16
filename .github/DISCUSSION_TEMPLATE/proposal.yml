@@ -19,11 +19,11 @@ body:
   - type: textarea
     id: success
     attributes:
-      label: Success criteria
+      label: "Success criteria"
       description: "How would 'success' look to you? Milestones for this project"
- - type: textarea
+  - type: textarea
     id: lookup
     attributes:
       label: Lookup
-      description: "Relevant prior work or resources" 
+      description: "Relevant prior work or resources"
 
