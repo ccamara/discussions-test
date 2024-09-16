@@ -1,4 +1,4 @@
-title: "[Proposal]"
+title: "[Proposal] "
 body:
   - type: markdown
     attributes:
@@ -19,7 +19,7 @@ body:
   - type: textarea
     id: success
     attributes:
-      label: "Success criteria"
+      label: Success criteria
       description: "How would 'success' look to you? Milestones for this project"
  - type: textarea
     id: lookup
