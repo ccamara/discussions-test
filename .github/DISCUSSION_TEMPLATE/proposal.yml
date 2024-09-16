@@ -1,55 +1,30 @@
-title: "[General] "
-labels: ["enhancement"]
+title: "[Proposal]"
+labels: [""]
 body:
   - type: markdown
     attributes:
       value: |
-        This is text that will show up in the template!
+        Explain what you would like to see improved
   - type: textarea
-    id: improvements
+    id: goal
     attributes:
-      label: Top 3 improvements
-      description: "What are the top 3 improvements we could make to this project?"
-      value: |
-        1.
-        2.
-        3.
-        ...
-      render: bash
+      label: Goal
+      description: "What are you trying to accomplish"
     validations:
       required: true
-  - type: markdown
+  - type: textarea
+    id: context
     attributes:
-      value: |
-        ## Markdown header
-        And some more markdown
-  - type: input
-    id: has-id
+      label: Context
+      description: "Background information"
+  - type: textarea
+    id: success
     attributes:
-      label: Suggestions
-      description: A description about suggestions to help you
-    validations:
-      required: true
-  - type: dropdown
-    id: download
+      label: "Success criteria"
+      description: "How would 'success' look to you? Milestones for this project"
+ - type: textarea
+    id: lookup
     attributes:
-      label: Which area of this project could be most improved?
-      options:
-        - Documentation
-        - Pull request review time
-        - Bug fix time
-        - Release cadence
-    validations:
-      required: true
-  - type: checkboxes
-    attributes:
-      label: Check that box!
-      options:
-        - label: This one!
-          required: true
-        - label: I won't stop you if you check this one, too
-  - type: markdown
-    attributes:
-      value: |
-        ### The thrilling conclusion
-        _to our template_
+      label: Lookup
+      description: "Relevant prior work or resources" 
+
